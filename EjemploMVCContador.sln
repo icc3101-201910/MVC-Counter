@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploMVCContador", "EjemploMVCContador\EjemploMVCContador.csproj", "{EE75FE9E-1003-4410-9CE9-27B0C055B585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{80C89D69-94A4-4EBC-80CE-9E5A4C8BFD46}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{EE75FE9E-1003-4410-9CE9-27B0C055B585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE75FE9E-1003-4410-9CE9-27B0C055B585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE75FE9E-1003-4410-9CE9-27B0C055B585}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80C89D69-94A4-4EBC-80CE-9E5A4C8BFD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80C89D69-94A4-4EBC-80CE-9E5A4C8BFD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80C89D69-94A4-4EBC-80CE-9E5A4C8BFD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80C89D69-94A4-4EBC-80CE-9E5A4C8BFD46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
