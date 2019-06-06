@@ -22,7 +22,7 @@ namespace EjemploMVCContador
         private void IncrementarButton_Click(object sender, EventArgs e)
         {
             if (OnIncrementar != null)
-              OnIncrementar();
+              OnIncrementar(); // USER ACTION
         }
 
         public void SetTexto(string texto)

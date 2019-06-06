@@ -18,8 +18,9 @@ namespace Controllers
 
         public void Incrementar()
         {
-            contador.Incrementar();
-            form1.SetTexto(contador.Valor.ToString());
+            contador.Incrementar(); // UPDATE (controller -> model)
+            string valorContador = contador.Valor.ToString(); // NOTIFY (aquí leemos la información, esto podría ser un evento)
+            form1.SetTexto(contador.Valor.ToString()); // UPDATE (controller -> view)
         }
     }
 }
